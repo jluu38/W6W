@@ -9,6 +9,7 @@ h1 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 4rem;
   font-variant:small-caps;
+  line-height: 0;
 }
 
 p {
@@ -41,4 +42,17 @@ img {
   margin: 1rem;
   max-width: 50vw;
   justify-self: center;
+}
+
+/* to hide broken img icon and alt before images are generated */
+.pix[src=""] {
+  display:none;
+}
+
+h2 {
+  margin: 0;
+}
+
+figcaption {
+  font-size: 0.9em;
 }
