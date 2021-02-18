@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+
+  display: grid;
+  justify-items: center;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 4rem;
+  font-variant:small-caps;
+}
+
+p {
+  font-size: 0.8em;
+}
+
+button {
+  padding: 1rem;
+  background: rgb(2, 2, 1);
+
+  color: white;
+  font-size: 2rem;
+  font-style: italic;
+}
+
+img {
+  margin: 1rem;
+  max-width: 50vw;
+  justify-self: center;
+}
