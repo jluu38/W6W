@@ -37,7 +37,7 @@ const moods = [
   {
     id: 7,
     mood: "What a beautiful day for introspection.",
-    desc: "nicole kidman (left), nicole kidman (right"
+    desc: "nicole kidman (left), nicole kidman (right)"
   },
   {
     id: 8,

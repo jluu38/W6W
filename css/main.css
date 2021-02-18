@@ -54,5 +54,6 @@ h2 {
 }
 
 figcaption {
+  margin-bottom: 2rem;
   font-size: 0.9em;
 }
