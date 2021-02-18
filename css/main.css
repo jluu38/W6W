@@ -18,10 +18,23 @@ p {
 button {
   padding: 1rem;
   background: rgb(2, 2, 1);
+  border-radius: 15px;
+  box-shadow: 4px 9px gray;
 
   color: white;
   font-size: 2rem;
   font-style: italic;
+}
+
+button:focus {
+  outline:none;
+  border-radius: 15px;
+  border: 2px solid gainsboro;
+}
+
+button:active {
+  box-shadow: none;
+  transform: translateY(4px);
 }
 
 img {
